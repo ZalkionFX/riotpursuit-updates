@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "version": "2.0.2",
+  "buildNumber": 31,
+  "packageName": "com.riotpursuit.riotpursuit_members",
+  "certificateSha256": "d6ec0e23e0b9d82c69e812708d479d8741fc2b3168c76d9e41a2fb6312af412d",
+  "publishedAt": "2026-10-02T13:35:23Z",
+  "notes": "Actualizaciones oficiales con descarga por arquitectura, progreso real y canales estable y beta.",
+  "artifacts": {
+    "armeabi-v7a": {
+      "versionCode": 1031,
+      "size": 58771388,
+      "sha256": "bf800f736c569c5d1e53c2be64ec097543e0c107a85f816b07a8ce68bd1baa22",
+      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.2/RiotPursuit-2.0.2-armeabi-v7a.apk"
+    },
+    "arm64-v8a": {
+      "versionCode": 2031,
+      "size": 77665874,
+      "sha256": "9dad5b812225c8a6d58d242d84bdcd5b5d70cbfe67b840e1fe18b4fdfc0fa9ae",
+      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.2/RiotPursuit-2.0.2-arm64-v8a.apk"
+    },
+    "x86_64": {
+      "versionCode": 4031,
+      "size": 83160711,
+      "sha256": "77cf4633143b1c9333e0b490f6870c4b075baead67309ee44c5bca2171dc23d4",
+      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.2/RiotPursuit-2.0.2-x86_64.apk"
+    }
+  }
+}
