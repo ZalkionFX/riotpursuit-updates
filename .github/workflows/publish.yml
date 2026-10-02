@@ -1,0 +1,42 @@
+name: Publicar canal de actualización
+
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Tag de la Release que se quiere distribuir
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: riot-update-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar APK oficiales y preparar canal
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: node publish-channel.mjs
+      - name: Publicar manifiestos verificados
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add channels
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publicar actualización Android verificada'
+          git push origin HEAD:main
