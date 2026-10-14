@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "2.0.3",
-  "buildNumber": 32,
+  "version": "2.0.4",
+  "buildNumber": 33,
   "packageName": "com.riotpursuit.riotpursuit_members",
   "certificateSha256": "d6ec0e23e0b9d82c69e812708d479d8741fc2b3168c76d9e41a2fb6312af412d",
-  "publishedAt": "2026-10-02T15:59:16Z",
-  "notes": "Adaptación a tablets en vertical y horizontal, columnas según el espacio disponible, formularios accesibles y navegación de rutas adaptable sin reiniciar el GPS.",
+  "publishedAt": "2026-10-14T13:59:54Z",
+  "notes": "Icono de Android corregido: logotipo blanco sobre fondo oscuro, capas adaptables y silueta para los temas del sistema.",
   "artifacts": {
     "armeabi-v7a": {
-      "versionCode": 1032,
-      "size": 58771660,
-      "sha256": "1d9d7e29769bac90c3892ab04d54b0a68330902bc5fe0cd4db61809f2de23a99",
-      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.3/RiotPursuit-2.0.3-armeabi-v7a.apk"
+      "versionCode": 1033,
+      "size": 58773676,
+      "sha256": "17e238472d3af8d6dbf9654e95f7349ed29f720202a5ab9f936daccc62481b75",
+      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.4/RiotPursuit-2.0.4-armeabi-v7a.apk"
     },
     "arm64-v8a": {
-      "versionCode": 2032,
-      "size": 77666146,
-      "sha256": "656fdbce5e6a331efb2282bf478ae0c1ae7340e50eefe42f7f6d975fce9b3922",
-      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.3/RiotPursuit-2.0.3-arm64-v8a.apk"
+      "versionCode": 2033,
+      "size": 77668162,
+      "sha256": "82fc5a809e55b9fc2c130b80247f7f3ca59929d6596cf12107f0c75abbf1b897",
+      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.4/RiotPursuit-2.0.4-arm64-v8a.apk"
     },
     "x86_64": {
-      "versionCode": 4032,
-      "size": 83226519,
-      "sha256": "a7184741572d7e8b26db52b66f7fc3eefebd86673b5486aa051d4f288f5ecb49",
-      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.3/RiotPursuit-2.0.3-x86_64.apk"
+      "versionCode": 4033,
+      "size": 83228535,
+      "sha256": "c584bea53b575e35b840d82fbd236807408675db39bf49600009d5eb7f8f202c",
+      "url": "https://github.com/ZalkionFX/riotpursuit-updates/releases/download/v2.0.4/RiotPursuit-2.0.4-x86_64.apk"
     }
   }
 }
